@@ -21,7 +21,7 @@ export const Footer = () => {
                                     underline-offset-4 hover:decoration-gray-200 transition duration-300"
               href="mailto:john@doe.com"
             >
-              john@doe.com
+              brajs0111@gmail.com
             </a>
           </div>
 
@@ -38,66 +38,46 @@ export const Footer = () => {
             </div>
 
             <div className="text-lg mb-8">
-              <p className="font-bold">Office</p>
-              <p>Street 98 98987</p>
-              <p>Berlin</p>
-              <p>Germany</p>
+              <p className="font-bold">From</p>
+              <p>Pluit, Jakarta Utara</p>
+              <p>Jakarta</p>
+              <p>Indonesia </p>
             </div>
           </div>
         </div>
 
         <div className="relative z-10 text-center mt-8 py-12">
           <h1 className="hidden md:block text-[10rem] md:text-[12rem] lg:text-[15rem] font-bold text-white opacity-10">
-            JOHNDOE
+            BRANDON
           </h1>
 
           <h1 className="md:hidden relative text-9xl md:text-[12rem] lg:text-[15rem] font-bold text-white opacity-10">
-            JOHN
+            BRAN
             <br />
-            DOE
+            DON
           </h1>
         </div>
 
         <div className="relative mt-12 container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
-          <p className="text-gray-200 caption text-n-4 lg:block">
-            © 2024. All rights reserved.
+          <p className="text-gray-200 caption text-n-4 lg:block ">
+            © 2025, Brandon J.S - All rights reserved.
           </p>
 
           <ul className="flex gap-5 flex-wrap">
             <a
-              href="https://github.com"
+              href="https://github.com/stdrouuu"
               aria-label="GitHub"
               className="text-gray-200 flex items-center justify-center w-10 h-10 rounded-full"
             >
               <AiFillGithub size={30} />
             </a>
+
             <a
-              href="https://x.com"
-              aria-label="X (Twitter)"
-              className="text-gray-200 flex items-center justify-center w-10 h-10 rounded-full"
-            >
-              <AiOutlineTwitter size={30} />
-            </a>
-            <a
-              href="https://facebook.com"
-              aria-label="Facebook"
-              className="text-gray-200 flex items-center justify-center w-10 h-10 rounded-full"
-            >
-              <AiFillFacebook size={30} />
-            </a>
-            <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/brandon._js/"
               aria-label="Instagram"
               className="text-gray-200 flex items-center justify-center w-10 h-10 rounded-full"
             >
               <AiFillInstagram size={30} />
-            </a>
-            <a
-              href="https://telegram.org"
-              aria-label="Telegram"
-              className="text-gray-200 flex items-center justify-center w-10 h-10 rounded-full"
-            >
-              <FaTelegramPlane size={30} />
             </a>
           </ul>
         </div>

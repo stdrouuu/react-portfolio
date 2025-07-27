@@ -9,31 +9,31 @@ const stackItems = [
     id: 1,
     name: "Framer",
     icon: <SiFramer size={100} />,
-    color: "text-emerald-200",
+    color: "text-red-200",
   },
   {
     id: 2,
     name: "Figma",
     icon: <SiFigma size={100} />,
-    color: "text-emerald-200",
+    color: "text-purple-300",
   },
   {
     id: 3,
     name: "React",
     icon: <SiReact size={100} />,
-    color: "text-emerald-200",
+    color: "text-[#66FCF1]",
   },
   {
     id: 4,
     name: "Node.js",
     icon: <SiNodedotjs size={100} />,
-    color: "text-emerald-200",
+    color: "text-green-300",
   },
   {
     id: 5,
     name: "Lemon Squeezy",
     icon: <FaLemon size={100} />,
-    color: "text-emerald-200",
+    color: "text-amber-200",
   },
 ];
 
