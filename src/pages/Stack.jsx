@@ -1,21 +1,23 @@
 import React, { useEffect } from "react";
-import { SiFramer, SiFigma, SiReact, SiNodedotjs } from "react-icons/si";
+import { SiFramer, SiFigma, SiReact, SiNodedotjs, SiTailwindcss } from "react-icons/si";
 import { FaLemon } from "react-icons/fa";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { GiTiara, GiTShirt } from "react-icons/gi";
+import { AiFillGithub, AiFillGitlab, AiOutlineJavaScript } from "react-icons/ai";
 
 const stackItems = [
   {
     id: 1,
     name: "Framer",
     icon: <SiFramer size={100} />,
-    color: "text-red-200",
+    color: "text-red-300",
   },
   {
     id: 2,
-    name: "Figma",
-    icon: <SiFigma size={100} />,
-    color: "text-purple-300",
+    name: "Javascript",
+    icon: <AiOutlineJavaScript size={100} />,
+    color: "text-yellow-200",
   },
   {
     id: 3,
@@ -31,9 +33,9 @@ const stackItems = [
   },
   {
     id: 5,
-    name: "Lemon Squeezy",
-    icon: <FaLemon size={100} />,
-    color: "text-amber-200",
+    name: "Tailwind",
+    icon: <SiTailwindcss size={100} />,
+    color: "text-blue-400",
   },
 ];
 
