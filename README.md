@@ -9,7 +9,8 @@ For more details about deploying apps to Vercel, check out the official document
 [https://vercel.com/docs](https://vercel.com/docs)
 
 ## About This Project  
-This is my personal portfolio, built using **React**, **Tailwind CSS**, and **Framer Motion**.  
+This is my personal portfolio, built using **React**, **Tailwind CSS**, and **Framer Motion**. Although I started with a template, I customized and modified it to suit my own style and content. I changed and adjusted several layouts, and applied different styles on it.
+
 
 ## Vite + React Setup  
 Uses a minimal setup to get React working in **Vite**, with **Hot Module Replacement (HMR)** and basic ESLint configuration.
