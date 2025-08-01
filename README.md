@@ -1,9 +1,11 @@
-# My Personal Portfolio Web (unfinished :)))
+# My Personal Portfolio Web (unfinished :))
 
 ## Deployment  
 This project is deployed on **Vercel**, the platform created by the makers of Next.js, for seamless and fast deployment of modern web applications.
 
 ## Live Demo: https://portofolio-brandonjeremiah.vercel.app/
+
+<img width="1633" height="876" alt="Image" src="https://github.com/user-attachments/assets/929373bb-1199-4235-8ce5-d48a1fdc1586" />
 
 For more details about deploying apps to Vercel, check out the official documentation:
 [https://vercel.com/docs](https://vercel.com/docs)
