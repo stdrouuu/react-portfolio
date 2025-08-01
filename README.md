@@ -1,4 +1,4 @@
-# My Personal Portfolio Web (unfinished...)
+# Personal Portfolio Web (unfinished)
 
 ## Deployment  
 This project is deployed on **Vercel**, the platform created by the makers of Next.js, for seamless and fast deployment of modern web applications.
