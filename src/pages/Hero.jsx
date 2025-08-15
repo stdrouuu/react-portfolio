@@ -1,23 +1,9 @@
-import React from "react";
 import { motion } from "framer-motion";
 import profilepic from "../assets/images/profilepic2.png";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillFacebook,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaTelegramPlane } from "react-icons/fa";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 
 export const Hero = () => {
   return (
-    // <div className="relative overflow-clip min-h-screen text-white bg-[linear-gradient(to_bottom,#000,#071E18_35%,#208A65_67%,#35FB8E_85%)]">
-    //   <div
-    //     className="absolute bg-black w-[2400px] h-[1000px] rounded-[50%] left-1/2 -translate-x-1/2
-    //                   bg-[radial-gradient(closest-side,#000_85%,#249974)] top-[450px]
-    //                   border-[1px] border-[#8CD6DE]/30"
-    //   />
-
     <div className="relative overflow-clip min-h-screen text-white bg-[linear-gradient(to_bottom,#0B0C10,#1F2833_35%,#45A29E_67%,#66FCF1_85%)]">
       <div
         className="absolute bg-black w-[2400px] h-[1000px] rounded-[50%] left-1/2 -translate-x-1/2 
@@ -29,7 +15,7 @@ export const Hero = () => {
         <div className="flex flex-col items-center justify-center text-center z-10">
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
+            whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
             className="relative mb-8 mt-24"
           >
@@ -42,7 +28,8 @@ export const Hero = () => {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 20, filter: "blur(3px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="max-w-2xl"
@@ -89,7 +76,8 @@ export const Hero = () => {
               className="z-10 text-gray-200 flex items-center justify-center w-10 h-10 rounded-full hover:text-[#7c7c7c] transition-colors"
             >
               <motion.div
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 0, y: 20, filter: "blur(3px)" }}
+                whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.3 }}
               >

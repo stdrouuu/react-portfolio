@@ -1,10 +1,20 @@
 import React, { useEffect } from "react";
-import { SiFramer, SiFigma, SiReact, SiNodedotjs, SiTailwindcss } from "react-icons/si";
+import {
+  SiFramer,
+  SiFigma,
+  SiReact,
+  SiNodedotjs,
+  SiTailwindcss,
+} from "react-icons/si";
 import { FaLemon } from "react-icons/fa";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { GiTiara, GiTShirt } from "react-icons/gi";
-import { AiFillGithub, AiFillGitlab, AiOutlineJavaScript } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillGitlab,
+  AiOutlineJavaScript,
+} from "react-icons/ai";
 
 const stackItems = [
   {
@@ -71,10 +81,12 @@ export const Stack = () => {
               hidden: (index) => ({
                 opacity: 0,
                 y: index % 2 === 0 ? -100 : 100,
+                filter: "blur(5px)",
               }),
               visible: {
                 opacity: 1,
                 y: 0,
+                filter: "blur(0px)",
                 transition: {
                   duration: 1.5,
                 },
