@@ -76,7 +76,7 @@ export const Hero = () => {
               className="z-10 text-gray-200 flex items-center justify-center w-10 h-10 rounded-full hover:text-[#7c7c7c] transition-colors"
             >
               <motion.div
-                initial={{ opacity: 0, y: 20, filter: "blur(3px)" }}
+                initial={{ opacity: 0, y: 20, filter: "blur(1px)" }}
                 whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.3 }}
@@ -93,8 +93,8 @@ export const Hero = () => {
               className="z-10 text-gray-200 flex items-center justify-center w-10 h-10 rounded-full hover:text-[#7c7c7c] transition-colors"
             >
               <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, y: 20, filter: "blur(1px)" }}
+                animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                 transition={{ duration: 0.5, delay: 0.5 }}
               >
                 <AiFillInstagram size={30} />
