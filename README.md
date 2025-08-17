@@ -1,4 +1,4 @@
-# Personal Portfolio Web (unfinished)
+# Personal Portfolio Web (continuously updated)
 
 ## Deployment  
 This project is deployed on **Vercel**, the platform created by the makers of Next.js, for seamless and fast deployment of modern web applications.
@@ -11,7 +11,7 @@ For more details about deploying apps to Vercel, check out the official document
 [https://vercel.com/docs](https://vercel.com/docs)
 
 ## About This Project  
-This is my personal portfolio, built using **React**, **Tailwind CSS**, and **Framer Motion**. Although I started with a template, I customized and modified it to suit my own style and content. I changed and adjusted several layouts, and applied different styles on it.
+This is my personal portfolio, built using **React**, **Tailwind CSS**, and **Framer Motion**. I customized and modified the base design to fit my own style and content, adjusting layouts and applying different styles on it.
 
 
 ## Vite + React Setup  
