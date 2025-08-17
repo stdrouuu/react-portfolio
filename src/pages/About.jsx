@@ -54,7 +54,7 @@ export const About = () => {
                 <span className="text-white">,</span>
                 <br />
                 &nbsp;&nbsp;
-                <span className="text-green-200">'Tailwind'</span>
+                <span className="text-green-200">'Tailwind CSS'</span>
                 <span className="text-white">,</span>
                 <br />
                 &nbsp;&nbsp;<span className="text-green-200">'SQL'</span>
@@ -63,7 +63,7 @@ export const About = () => {
                 &nbsp;&nbsp;<span className="text-green-200">'Framer'</span>
                 <span className="text-white">,</span>
                 <br />
-                &nbsp;&nbsp;<span className="text-green-200">'Python'</span>
+                &nbsp;&nbsp;<span className="text-green-200">'TypeScript'</span>
                 <br />
                 <span className="text-amber-400">]</span>
                 <span className="text-white">;</span>
@@ -89,7 +89,10 @@ export const About = () => {
               </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2 text-left">
                 <li>
-                  <strong> Degree of Informatics (Computer Science) </strong>
+                  <strong>
+                    {" "}
+                    Bachelor's Degree in Computer Science (Informatics){" "}
+                  </strong>
                   <span className="text-white/50">
                     {" "}
                     <br />
@@ -101,7 +104,7 @@ export const About = () => {
                   <br />
                   <span className="text-white/50">
                     {" "}
-                    Data Structures, Web Development, Cloud Computing, ...
+                    Web Development, Cloud Computing, ...
                   </span>
                 </li>
               </ul>
@@ -126,24 +129,21 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    Intern at ... (2025 - present){" "}
                   </h4>
                   <p>
                     <span className="text-white/50">
-                      Developed and maintained microservices for cloud-based
-                      applications.
+                      Implemented and optimized reusable front-end components
+                      using modern frameworks.
                     </span>
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Intern at DEF Startups (2019){" "}
-                  </h4>
+                  <h4 className="font-semibold"> Freelance at UpStack (2025) </h4>
                   <p>
                     <span className="text-white/50">
-                      Assisted in building front-end components and integration
-                      REST APIs
+                      Developed responsive interfaces with focus on performance
+                      and maintainability.
                     </span>
                   </p>
                 </div>
@@ -165,7 +165,7 @@ export const About = () => {
             <h3 className="text-xl font-bold mb-2">🦾 Current Technologies</h3>
             <p className="text-white/50 mb-4">
               I'm proficient in a wide range of technologies and constantly
-              expanding my skill set to stay at the front of web development.
+              expanding my skill.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
