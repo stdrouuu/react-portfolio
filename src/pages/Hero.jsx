@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import profilepic from "../assets/images/profilepic2.png";
-import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram, AiFillSpotify } from "react-icons/ai";
 
 export const Hero = () => {
   return (
@@ -98,6 +98,23 @@ export const Hero = () => {
                 transition={{ duration: 0.5, delay: 0.5 }}
               >
                 <AiFillInstagram size={30} />
+              </motion.div>
+            </a>
+
+            <a
+              href="https://open.spotify.com/user/eeua467i5c6b9fivr3adqnz2k?si=fjSscfohTymAxnmTPK60BA&pi=hDzNWMoFSB6E7"
+              aria-label="Spotify"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="z-10 text-gray-200 flex items-center justify-center w-10 h-10 rounded-full hover:text-[#7c7c7c] transition-colors"
+            >
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.7 }}
+              >
+                <AiFillSpotify size={30} />
               </motion.div>
             </a>
           </ul>

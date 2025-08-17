@@ -4,6 +4,7 @@ import {
   AiOutlineTwitter,
   AiFillFacebook,
   AiFillInstagram,
+  AiFillSpotify,
 } from "react-icons/ai";
 import { FaTelegramPlane } from "react-icons/fa";
 
@@ -78,6 +79,14 @@ export const Footer = () => {
               className="text-gray-200 flex items-center justify-center w-10 h-10 rounded-full"
             >
               <AiFillInstagram size={30} />
+            </a>
+
+            <a
+              href="https://open.spotify.com/user/eeua467i5c6b9fivr3adqnz2k?si=fjSscfohTymAxnmTPK60BA&pi=hDzNWMoFSB6E7"
+              aria-label="Spotify"
+              className="text-gray-200 flex items-center justify-center w-10 h-10 rounded-full"
+            >
+              <AiFillSpotify size={30} />
             </a>
           </ul>
         </div>

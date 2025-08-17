@@ -1,20 +1,8 @@
-import React, { useEffect } from "react";
-import {
-  SiFramer,
-  SiFigma,
-  SiReact,
-  SiNodedotjs,
-  SiTailwindcss,
-} from "react-icons/si";
-import { FaLemon } from "react-icons/fa";
+import { useEffect } from "react";
+import { SiFramer, SiReact, SiNodedotjs, SiTailwindcss } from "react-icons/si";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { GiTiara, GiTShirt } from "react-icons/gi";
-import {
-  AiFillGithub,
-  AiFillGitlab,
-  AiOutlineJavaScript,
-} from "react-icons/ai";
+import { AiOutlineJavaScript } from "react-icons/ai";
 
 const stackItems = [
   {

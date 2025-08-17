@@ -1,8 +1,4 @@
-import React from "react";
 import { motion } from "framer-motion";
-
-import project1 from "../assets/images/proj5.png";
-import project2 from "../assets/images/proj6.png";
 
 export const About = () => {
   const fronetendSkills = [

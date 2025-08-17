@@ -1,25 +1,24 @@
-import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import proj1 from "../assets/images/proj9.png";
-import proj2 from "../assets/images/proj11.png";
-import proj3 from "../assets/images/proj12.png";
+import proj1 from "../assets/images/proj1.png";
+import proj2 from "../assets/images/proj2.png";
+import proj3 from "../assets/images/proj3.png";
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { FiChevronDown } from "react-icons/fi";
 
 const projects = [
   {
-    title: "Portfolio Website | Brandon Jeremiah",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    devstack: "ReactJS, TailwindCSS, Framer Motion",
-    link: "#",
-    git: "#",
-    src: proj3,
+    title: "MemeIn - Meme Maker App",
+    desc: "MemeIn is a meme maker app built with Next.js, Shadcn, TypeScript, and Tailwind CSS. It uses React Konva for canvas editing, lets users upload and edit images, and supports light, dark, and system themes.”",
+    devstack: "Next.js, Shadcn, TypeScript, Tailwind CSS, and React Konva",
+    link: "https://memein.vercel.app/",
+    git: "https://github.com/stdrouuu/memein-next",
+    src: proj1,
     type: "frontend",
   },
   {
-    title: "Lorem ipsum dolor sit amet..",
+    title: "coming soon page..",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     devstack: "NextJs",
     link: "#",
@@ -28,12 +27,12 @@ const projects = [
     type: "fullstack",
   },
   {
-    title: "Lorem ipsum dolor sit amet..",
+    title: "coming soon page..",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     devstack: "MERN (MongoDB, Express, React, Node.js)",
     link: "#",
     git: "#",
-    src: proj1,
+    src: proj3,
     type: "fullstack",
   },
 ];
@@ -106,13 +105,13 @@ export const Portfolio = () => {
                         <div className="flex justify-start items-center space-x-4">
                           <a
                             href={project.link}
-                            className="text-[#66FCF1] hover:text-[#66FCF1]/60 transition-colors"
+                            className="text-gray-400 hover:text-gray-100 transition-colors"
                           >
                             <HiOutlineExternalLink />
                           </a>
                           <a
                             href={project.git}
-                            className="text-gray-400 hover:text-[#66FCF1]/60 transition-colors"
+                            className="text-gray-400 hover:text-gray-100 transition-colors"
                           >
                             <FaGithub />
                           </a>
