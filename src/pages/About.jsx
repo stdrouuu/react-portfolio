@@ -68,10 +68,14 @@ export const About = () => {
                 &nbsp;&nbsp;<span className="text-green-200">'SQL'</span>
                 <span className="text-white">,</span>
                 <br />
-                &nbsp;&nbsp;<span className="text-green-200">'Framer'</span>
+                &nbsp;&nbsp;
+                <span className="text-green-200">'Framer Motion'</span>
                 <span className="text-white">,</span>
                 <br />
                 &nbsp;&nbsp;<span className="text-green-200">'TypeScript'</span>
+                <span className="text-white">,</span>
+                <br />
+                &nbsp;&nbsp;<span className="text-green-200">'Next.js</span>
                 <br />
                 <span className="text-amber-400">]</span>
                 <span className="text-white">;</span>
