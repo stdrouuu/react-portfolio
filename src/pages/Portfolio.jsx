@@ -48,7 +48,14 @@ export const Portfolio = () => {
     <div className="text-white py-24 md:py-64" id="portfolio">
       <div className="container mx-auto px-4">
         <h2 className="text-6xl font-bold text-center mb-16">
-          Selected <span className="text-[#66FCF1]/90">Projects</span>
+          <motion.div
+            initial={{ opacity: 0, y: 20, filter: "blur(3px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            viewport={{ once: true, amount: 0.2 }}
+          >
+            Selected<span className="text-[#66FCF1]/90"> Projects</span>
+          </motion.div>
         </h2>
 
         <div className="space-y-8">
@@ -58,7 +65,7 @@ export const Portfolio = () => {
               initial={{ opacity: 0, y: 20, filter: "blur(5px)" }}
               whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
+              transition={{ duration: 0.5, delay: 0.5 }}
               className="bg-white/5 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
             >
               <div

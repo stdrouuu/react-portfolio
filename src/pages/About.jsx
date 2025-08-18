@@ -15,8 +15,16 @@ export const About = () => {
     <div className="bg-gradient-to-b from-[#0B0B0D] via-[#0B0B0D] to-black">
       <section id="about" className="text-white  p-8">
         <h2 className="text-6xl font-bold mt-24 mb-8 max-w-3xl mx-auto text-center">
-          About <span className="text-[#66FCF1]/90">Me</span>
+          <motion.div
+            initial={{ opacity: 0, y: 20, filter: "blur(3px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            viewport={{ once: true, amount: 0.2 }}
+          >
+            About <span className="text-[#66FCF1]/90">Me</span>
+          </motion.div>
         </h2>
+
         <div className="max-w-3xl mx-auto px-4">
           <motion.div
             className="p-6 rounded-xl border-white/20 border hover:-translate-y-1 transition-all duration-300 ease-out"
@@ -25,7 +33,7 @@ export const About = () => {
             viewport={{ once: true, amount: 0.3 }}
             transition={{
               duration: 0.6,
-              delay: 0.2,
+              delay: 0.3,
               ease: [0.25, 0.1, 0.25, 1],
             }}
           >
@@ -79,7 +87,7 @@ export const About = () => {
               viewport={{ once: true, amount: 0.3 }}
               transition={{
                 duration: 0.6,
-                delay: 0.2,
+                delay: 0.3,
                 ease: [0.25, 0.1, 0.25, 1],
               }}
             >
@@ -117,7 +125,7 @@ export const About = () => {
               viewport={{ once: true, amount: 0.3 }}
               transition={{
                 duration: 0.6,
-                delay: 0.2,
+                delay: 0.3,
                 ease: [0.25, 0.1, 0.25, 1],
               }}
             >
@@ -139,7 +147,10 @@ export const About = () => {
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-semibold"> Freelance at UpStack (2025) </h4>
+                  <h4 className="font-semibold">
+                    {" "}
+                    Freelance at UpStack (2025){" "}
+                  </h4>
                   <p>
                     <span className="text-white/50">
                       Developed responsive interfaces with focus on performance
@@ -158,7 +169,7 @@ export const About = () => {
             viewport={{ once: true, amount: 0.3 }}
             transition={{
               duration: 0.6,
-              delay: 0.2,
+              delay: 0.3,
               ease: [0.25, 0.1, 0.25, 1],
             }}
           >

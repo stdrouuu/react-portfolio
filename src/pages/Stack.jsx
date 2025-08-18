@@ -57,7 +57,16 @@ export const Stack = () => {
       className="py-24 md:py-64 max-w-[1200px] mx-auto text-center"
       id="stack"
     >
-      <h2 className="text-7xl text-gray-100 font-bold mb-20">My Stack</h2>
+      <h2 className="text-7xl text-gray-100 font-bold mb-20">
+        <motion.div
+          initial={{ opacity: 0, y: 20, filter: "blur(3px)" }}
+          whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          viewport={{ once: true, amount: 0.2 }}
+        >
+          My Stack
+        </motion.div>
+      </h2>
       <div className="flex flex-wrap justify-center gap-8" ref={ref}>
         {stackItems.map((item, index) => (
           <motion.div
@@ -68,15 +77,19 @@ export const Stack = () => {
             variants={{
               hidden: (index) => ({
                 opacity: 0,
-                y: index % 2 === 0 ? -100 : 100,
-                filter: "blur(5px)",
+                y: index % 2 === 0 ? -40 : 40,
+                filter: "blur(3px)",
+                rotate: index % 2 === 0 ? -9 : 9,
               }),
               visible: {
                 opacity: 1,
                 y: 0,
+                rotate: 0,
                 filter: "blur(0px)",
                 transition: {
-                  duration: 1.5,
+                  duration: 2,
+                  delay: 0.2,
+                  ease: [0.16, 1, 0.3, 1],
                 },
               },
             }}
