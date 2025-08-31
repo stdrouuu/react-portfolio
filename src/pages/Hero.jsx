@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import profilepic from "../assets/images/profilepic2.png";
-import { AiFillGithub, AiFillInstagram, AiFillSpotify } from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillSpotify } from "react-icons/ai";
 
 export const Hero = () => {
   return (
@@ -68,6 +68,22 @@ export const Hero = () => {
 
         <div className="flex justify-center mt-6">
           <ul className="flex gap-5">
+              <a
+              href="https://www.linkedin.com/in/brandon-jeremiah-sutedja/"
+              aria-label="LinkedIn"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="z-10 text-gray-200 flex items-center justify-center w-10 h-10 rounded-full hover:text-[#7c7c7c] transition-colors"
+            >
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+              >
+                <AiFillLinkedin size={30} />
+              </motion.div>
+            </a>
+
             <a
               href="https://github.com/stdrouuu"
               aria-label="GitHub"
@@ -79,7 +95,7 @@ export const Hero = () => {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.3 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
               >
                 <AiFillGithub size={30} />
               </motion.div>
@@ -95,7 +111,7 @@ export const Hero = () => {
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.5 }}
+                transition={{ duration: 0.5, delay: 0.7 }}
               >
                 <AiFillInstagram size={30} />
               </motion.div>
@@ -112,7 +128,7 @@ export const Hero = () => {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.7 }}
+                transition={{ duration: 0.5, delay: 0.9 }}
               >
                 <AiFillSpotify size={30} />
               </motion.div>

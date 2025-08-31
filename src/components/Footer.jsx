@@ -1,12 +1,9 @@
-import React from "react";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillFacebook,
   AiFillInstagram,
+  AiFillLinkedin,
   AiFillSpotify,
 } from "react-icons/ai";
-import { FaTelegramPlane } from "react-icons/fa";
 
 export const Footer = () => {
   return (
@@ -20,9 +17,9 @@ export const Footer = () => {
             <a
               className="md:text-7xl text-4xl font-semibold text-white underline decoration-gray-400 decoration-2
                                     underline-offset-4 hover:decoration-gray-200 transition duration-300"
-              href="mailto:john@doe.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=brandonjs.dev@gmail.com"
             >
-              brajs0111@gmail.com
+              brandonjs.dev <br /> @gmail.com
             </a>
           </div>
 
@@ -30,11 +27,11 @@ export const Footer = () => {
             <div className="mb-8">
               <p className="text-lg mb-1">Phone</p>
               <a
-                href="+62 821-1234-5678"
+                href="+62 821-9999-9999"
                 className="text-2xl font-semibold underline decoration-gray-400 decoration-2
                                     underline-offset-4 hover:decoration-gray-400 transition duration-300"
               >
-                +62 821-1234-5678
+                +62 821-9999-9999
               </a>
             </div>
 
@@ -66,9 +63,16 @@ export const Footer = () => {
 
           <ul className="flex gap-5 flex-wrap">
             <a
+              href="https://www.linkedin.com/in/brandon-jeremiah-sutedja/"
+              aria-label="LinkedIn"
+              className="text-gray-200 flex items-center justify-center w-10 h-10 rounded-full hover:text-[#7c7c7c] transition-colors"
+            >
+              <AiFillLinkedin size={30} />
+            </a>
+            <a
               href="https://github.com/stdrouuu"
               aria-label="GitHub"
-              className="text-gray-200 flex items-center justify-center w-10 h-10 rounded-full"
+              className="text-gray-200 flex items-center justify-center w-10 h-10 rounded-full hover:text-[#7c7c7c] transition-colors"
             >
               <AiFillGithub size={30} />
             </a>
@@ -76,7 +80,7 @@ export const Footer = () => {
             <a
               href="https://www.instagram.com/brandon._js/"
               aria-label="Instagram"
-              className="text-gray-200 flex items-center justify-center w-10 h-10 rounded-full"
+              className="text-gray-200 flex items-center justify-center w-10 h-10 rounded-full hover:text-[#7c7c7c] transition-colors"
             >
               <AiFillInstagram size={30} />
             </a>
@@ -84,7 +88,7 @@ export const Footer = () => {
             <a
               href="https://open.spotify.com/user/eeua467i5c6b9fivr3adqnz2k?si=fjSscfohTymAxnmTPK60BA&pi=hDzNWMoFSB6E7"
               aria-label="Spotify"
-              className="text-gray-200 flex items-center justify-center w-10 h-10 rounded-full"
+              className="text-gray-200 flex items-center justify-center w-10 h-10 rounded-full hover:text-[#7c7c7c] transition-colors"
             >
               <AiFillSpotify size={30} />
             </a>

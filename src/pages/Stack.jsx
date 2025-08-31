@@ -1,5 +1,14 @@
 import { useEffect } from "react";
-import { SiFramer, SiReact, SiNodedotjs, SiTailwindcss } from "react-icons/si";
+import {
+  SiFramer,
+  SiReact,
+  SiNodedotjs,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiTypescript,
+  SiPostman,
+  SiMysql,
+} from "react-icons/si";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { AiOutlineJavaScript } from "react-icons/ai";
@@ -13,7 +22,7 @@ const stackItems = [
   },
   {
     id: 2,
-    name: "Javascript",
+    name: "JavaScript",
     icon: <AiOutlineJavaScript size={100} />,
     color: "text-yellow-200",
   },
@@ -25,15 +34,39 @@ const stackItems = [
   },
   {
     id: 4,
+    name: "Tailwind CSS",
+    icon: <SiTailwindcss size={100} />,
+    color: "text-cyan-400",
+  },
+  {
+    id: 5,
+    name: "Next.js",
+    icon: <SiNextdotjs size={100} />,
+    color: "text-white-400",
+  },
+  {
+    id: 6,
+    name: "TypeScript",
+    icon: <SiTypescript size={100} />,
+    color: "text-blue-400",
+  },
+  {
+    id: 7,
     name: "Node.js",
     icon: <SiNodedotjs size={100} />,
     color: "text-green-300",
   },
   {
-    id: 5,
-    name: "Tailwind",
-    icon: <SiTailwindcss size={100} />,
-    color: "text-blue-400",
+    id: 8,
+    name: "Postman",
+    icon: <SiPostman size={100} />,
+    color: "text-orange-400",
+  },
+  {
+    id: 8,
+    name: "MySQL",
+    icon: <SiMysql size={100} />,
+    color: "text-gray-400",
   },
 ];
 
