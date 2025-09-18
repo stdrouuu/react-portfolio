@@ -1,9 +1,9 @@
-# Personal Portfolio Web (continuously updated)
+# Portfolio (continuously updated)
 
 ## Deployment  
 This project is deployed on **Vercel**, the platform created by the makers of Next.js, for seamless and fast deployment of modern web applications.
 
-## Live Demo: https://portofolio-brandonjeremiah.vercel.app/
+## Live: https://portofolio-brandonjeremiah.vercel.app/
 
 <img width="1633" height="876" alt="Image" src="https://github.com/user-attachments/assets/929373bb-1199-4235-8ce5-d48a1fdc1586" />
 
