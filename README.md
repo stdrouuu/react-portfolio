@@ -11,7 +11,7 @@ For more details about deploying apps to Vercel, check out the official document
 [https://vercel.com/docs](https://vercel.com/docs)
 
 ## About This Project  
-This is my personal portfolio, built using **React**, **Tailwind CSS**, and **Framer Motion**. I customized and modified the base design to fit my own style and content, adjusting layouts and applying different styles on it.
+My personal portfolio, built using **React**, **Tailwind CSS**, and **Framer Motion**. I customized and modified the base design to fit my own style and content, adjusting layouts and applying different styles on it.
 
 
 ## Vite + React Setup  
